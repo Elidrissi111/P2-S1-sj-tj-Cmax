@@ -1,0 +1,32 @@
+------------------------------------------------------------------------------------------
+For each folder, we have 30 instances:
+
+
+30 instances for each $n$ 
+
+$n$: number of jobs               $m$: number of machines (always m=2)
+
+10 instances $\alpha_1$=[0.01,0.1]
+
+10 instances $\alpha_2$=[0.1,0.2]
+
+10 instances $\alpha_3$=[0.1,0.5]
+
+
+A total of 30 instances for each $n$
+------------------------------------------------------------------------------------------
+The number of jobs range:
+
+$n$= {8, 10, 12, 25, 50, 100, 250, 500}
+
+------------------------------------------------------------------------------------------
+Data generation: 
+
+$p_j$ = $U[10, 100]$
+$s_j$ = $\alpha*p_j$ / $\alpha \in {\alpha_1,\alpha_2,\alpha_3}$
+$t_j$ = $\alpha*p_j$
+
+------------------------------------------------------------------------------------------
+$\alpha_1$ = [0.01,0.1] // small loading and unloading variance
+$\alpha_2$ = [0.1,0.2]  // medium loading and unloading variance
+$\alpha_3$ = [0.1,0.5]  // latge loading and unloading variance
