@@ -1,18 +1,16 @@
 30 instances
-////////n: number of jobs //////// m: number of machines
+
+n: number of jobs and m: number of machines
 
 10 instances alpha1=[0.01,0.1]
 
-
-////////n: number of jobs //////// m: number of machines
+n: number of jobs and m: number of machines
 
 10 instances alpha2=[0.1,0.2]
 
-
-////////n: number of jobs //////// m: number of machines
+n: number of jobs and m: number of machines
 
 10 instances alpha3=[0.1,0.5]
-
 
 ------------------------------------------------------------------------------------------
 
